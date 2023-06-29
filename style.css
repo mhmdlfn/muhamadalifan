@@ -297,5 +297,42 @@ h3 {
         width: 100%;
         height: auto;
     }
+		@media screen and (max-width: 567px) {
+    .wrapper {
+        width: 100%;
+		height: auto;
+    }
+
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
 	
 }
